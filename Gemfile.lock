@@ -1,6 +1,7 @@
 GIT
   remote: git://github.com/eatabit/open-nlp.git
-  revision: 67f6f4798c0742f719c03a011d5c87a4d49fa871
+  revision: e8f50b2ce13000ea6bfe47b818bef61c12730bbf
+  ref: e8f50b2ce13000ea6bfe47b818bef61c12730bbf
   specs:
     open-nlp (0.1.5)
       bind-it (~> 0.2.5)
@@ -10,10 +11,14 @@ GEM
   specs:
     bind-it (0.2.7)
       rjb (~> 1.4.3)
+    fuzzy_match (2.1.0)
     rjb (1.4.9)
+    sunspot_solr (2.1.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  fuzzy_match
   open-nlp!
+  sunspot_solr

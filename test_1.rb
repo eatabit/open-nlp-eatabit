@@ -11,10 +11,10 @@ require_relative 'item'
 
 OpenNLP.load
   
-text = "The NY style Parmesan sandwich fried with French fries and 2 sides of ranch.. And some ketchup! Thank you!"
+# text = "The NY style Parmesan sandwich fried with French fries and 2 sides of ranch.. And some ketchup! Thank you!"
 # text = "Small cheese pizza plus feta, tomatoes and banana peppers"
 # text = "Small meaty and beefy pizza with no pepperoni"
-# text = "Medium half pepperoni half Hawaiian"
+text = "Medium half pepperoni half Hawaiian"
 # text = "Large Italian American"
 # text = "1 Philly cheese steak with fries, 1 gyro lamb with fries"
 # text = "1 large pepperoni and onion with jalapeños on half."
